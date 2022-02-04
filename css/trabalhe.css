@@ -36,3 +36,38 @@
   font-size: 26px;
   color: red;
 }
+.inp {
+  color: #000000;
+  border-radius: 5px;
+}
+.inp:hover {
+  color: #3490dc;
+}
+input,
+textarea {
+  background-color: #dae4ec;
+  font-size: 16px;
+  color: #170f30;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 24px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #dae1e7;
+  box-shadow: 0 1px 4px 0px #dae1e7;
+}
+form {
+  width: 90%;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #dae1e7;
+  box-shadow: 0 3px 6px 0px #dae1e7;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 6px;
+}
