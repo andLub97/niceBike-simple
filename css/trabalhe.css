@@ -1,0 +1,38 @@
+.trh2 {
+  text-align: center;
+  background-color: rgba(19, 1, 1, 0.5);
+  padding: 10px;
+  color: rgb(235, 222, 222);
+  font-weight: 300;
+}
+.trh3 {
+  text-align: center;
+  background-color: rgba(19, 1, 1, 0.3);
+  padding: 10px;
+  color: rgb(235, 222, 222);
+  font-weight: 300;
+  font-size: 24px;
+}
+#tr-intro {
+  background-image: url(../img/bkg-tr.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(112, 95, 95);
+}
+.trh4 {
+  text-align: center;
+  background-color: rgba(19, 1, 1, 0.3);
+  padding: 10px;
+  color: rgb(235, 222, 222);
+  font-weight: 300;
+  font-size: 24px;
+}
+.trh4:hover {
+  font-size: 26px;
+  color: red;
+}

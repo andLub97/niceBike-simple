@@ -1,0 +1,137 @@
+html {
+  background-color: #ffffff;
+}
+body {
+  background-color: #ede6e6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 960px;
+  color: #373535;
+}
+header {
+  display: flex;
+  height: 150px;
+}
+header > div {
+  flex: 1;
+  text-align: center;
+  align-self: flex-end;
+}
+li {
+  display: inline;
+}
+header img {
+  max-width: 100px;
+}
+h1 {
+  margin: 10px;
+  font-size: 20px;
+}
+ul {
+  margin: 10px 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #373535;
+}
+a:hover {
+  color: rgb(226, 74, 74);
+}
+#sign-up {
+  background-image: url(../img/fundo.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(112, 95, 95);
+}
+
+h2,
+h3 {
+  background-color: rgba(46, 39, 39, 0.5);
+  padding: 5px;
+  color: rgb(235, 222, 222);
+  font-weight: 300;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  margin-top: 0;
+}
+input[type="email"] {
+  width: 250px;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+}
+input[type="submit"] {
+  background: #cccccc;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+#ideas {
+  display: flex;
+  padding: 15px;
+}
+#ideas img {
+  width: 100%;
+}
+.relative {
+  position: relative;
+}
+.category-title {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+}
+.middle {
+  margin: 0 15px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e5e0e0;
+  padding: 20px;
+}
+footer img {
+  max-width: 80px;
+}
+#escolha1 {
+  background-color: rgba(19, 1, 1, 0.5);
+  padding: 10px;
+  color: rgb(235, 222, 222);
+  font-weight: 300;
+  margin-right: 100px;
+}
+#escolha2 {
+  background-color: rgba(19, 1, 1, 0.5);
+  padding: 10px;
+  color: rgb(235, 222, 222);
+  font-weight: 300;
+  margin-left: 100px;
+}
+.pol {
+  text-align: center;
+  background-color: rgba(19, 1, 1, 0.5);
+  padding: 10px;
+  color: rgb(235, 222, 222);
+  font-weight: 300;
+}
+.pol-txt {
+  background-color: rgba(165, 156, 156, 0.5);
+  padding: 10px;
+  color: rgb(10, 10, 10);
+  font-weight: 300;
+}

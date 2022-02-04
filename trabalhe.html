@@ -1,0 +1,123 @@
+<!--Desenvolvedor: André Lubawski -->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhe Conosco</title>
+    <link rel="stylesheet" href="./css/style-home.css" />
+    <link rel="stylesheet" href="./css/trabalhe.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+          <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <span>&#183;</span>
+          <li><a href="./produtos-geral.html">Produtos</a></li>
+        </ul>
+          </nav>
+      </div>
+      <div>
+        <img src="./img/bike.svg" alt="logo" />
+        <h1><a href="./index.html">niceBike!</a></h1>
+      </div>
+      <div>
+          <nav>
+          <ul>
+              <li><a href="./produtos-geral.html">Novidades</a></li>
+              <span>&#183;</span>
+              <li><a href="./contato.html">Contato</a></li>
+          </ul>
+        </nav>
+    </div>
+    </header>
+    <section id="tr-intro">
+        <h2>Venha fazer parte da equipe niceBike!</h2>
+    </section>
+    <hr>
+    <h2 class="trh2">Trabalhe Conosco</h2>
+    <h2 class="trh3">Preencha o formulário e entraremos em contato assim que possível</h2>
+    <hr>
+    <h2>Preencha os campos vazios</h2>
+
+    <form action = "./formdata.php" method = "POST">
+        <fieldset>
+        <label for = "nome">Nome</label><br>
+        <input type = "text" id = "nome" name = "nome" aria-required="true">
+        <br>
+
+        <label for = "sobrenome">Sobrenome</label><br>
+        <input type = "text" id = "sobrenome" name = "sobrenome" aria-required="true">
+        <br>
+
+        <label for = "telefonecel">Telefone Celular</label><br>
+        <input type = "number" id = "telefonecel" name = "telefonecel">
+        <br>
+
+        <label for = "email">Email</label><br>
+        <input type = "email" id = "email" name = "email">
+        <br>
+        <br>
+
+        <select name = "estado">
+            <option selected="" value="">Selecione o Estado (UF)</option>
+            <option value="">Selecione</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+       
+        <p>deixe uma mensagem se quiser</p>
+        <textarea name = "textarea" rows="5" cols="30"  minlength="10" maxlength="20"> Escreva algo aqui...
+        </textarea>
+
+        <br>
+        <br>
+        
+        <input type = "submit" value = "Enviar">
+    </fieldset>
+    <h4 class="trh4">Preencha os dados corretamente e ganhe um desconto de 5% na primeira compra</h4>
+        <hr>
+        <br>
+    </form>
+    <footer>
+        <img src="img/bike.svg" alt="logo-2">
+        <nav>
+            <ul>
+                <li><a href="./sobre.html">Sobre nós</a></li>
+                <span>&#183;</span>
+                <li><a href="./contato.html">Entre em contato</a></li>
+                <span>&#183;</span>
+                <li><a href="./trabalhe.html">Trabalhe Conosco</a></li>
+                <span>&#183;</span>
+                <li><a href="./privacidade.html">Privacidade</a></li>
+        </nav>
+    </footer>
+  </body>
+</html>

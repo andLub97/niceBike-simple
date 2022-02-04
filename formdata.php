@@ -1,0 +1,9 @@
+<h1>GET</h1>
+<?php
+print_r($_GET);
+?>
+<hr>
+<h1>POST</h1>
+<?php
+print_r($_POST);
+?>
